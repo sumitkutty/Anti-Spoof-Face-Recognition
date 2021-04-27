@@ -43,6 +43,8 @@ This project addresses a computer vision problem involving face recognition and 
 * A threshold is set for the EAR, and if the EAR goes below the threshold, a blink is registered.
 * If more than 5 blinks are registered, the system goes through. 
 
+## Conclusion:
+#### The system works with great accuracy and can be used in non-military grade sectors and employment centres in order to login into a system. The result of the system can be found in the output folder under this repo.
 
 
 ## References;
@@ -53,4 +55,4 @@ This project addresses a computer vision problem involving face recognition and 
 
 
 
-
+# THE END
