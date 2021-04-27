@@ -2,14 +2,15 @@
 This project addresses a computer vision problem involving face recognition and anti-spoofing methods.
 
 ## Objective:
-#### The goal is to build face recognition system with an anti-spoof feature. The anti-spoof feature in this project is eye-blink detection. The condition for success is the detection of 5 blinks after a face is recognized. 
+#### The goal is to build a face recognition system with an anti-spoof feature. The anti-spoof feature in this project is eye-blink detection. The condition for success is the detection of 5 blinks after a face is recognized.This way, a photograph cannot be used to get past the system.
 
 
 ## Dataset:
 #### The dataset is created by collecting 10-15 pictures of one self and storing it in a folder under the name of the person whose picture it contains.
 
 
-## Packages:
+## Packages and Dependancies:
+* Python 3.8
 * OpenCV
 * pickle
 * imutils
@@ -40,6 +41,7 @@ This project addresses a computer vision problem involving face recognition and 
 * The EAR is calculated as the average of the EARs of both eyes.
 * A threshold is set for the EAR, and if the EAR goes below the threshold, a blink is registered.
 * If more than 5 blinks are registered, the system goes through. 
+
 
 
 ## References;
