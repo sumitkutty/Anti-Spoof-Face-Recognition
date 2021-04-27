@@ -6,7 +6,7 @@ This project addresses a computer vision problem involving face recognition and 
 
 
 ## Dataset:
-#### The dataset is created by collecting 10-15 pictures of one self and storing it in a folder under the name of the person whose picture it contains.
+#### The dataset is created by collecting 10-15 pictures of one self and storing it in a folder under the name of the person whose picture it contains. All the folders are stored inside a unified dataset folder.
 
 
 ## Packages and Dependancies:
@@ -29,7 +29,7 @@ This project addresses a computer vision problem involving face recognition and 
 
 
 ## Method:
-* The method involves looping through the video and preprocessing the frames by converting to RGB, resizing the converted image to the frame's dimensions.
+* The method involves looping through the video and preprocessing the frames by converting to RGB, resizing the RGB image to the frame's dimensions.
 * The faces are detected in the frame and stored in an array.
 * The encodings for the detected faces in the stream is estimated and compared to the encodings from training, and the one with the maximum count is outputted.
 
