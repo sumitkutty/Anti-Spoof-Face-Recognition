@@ -19,6 +19,7 @@ This project addresses a computer vision problem involving face recognition and 
 * time
 * numpy
 * scipy
+#### The rest of the dependancies are listed in the requirements.txt file. It can be installed from the command-line using 'pip'
 
 ## Training:
 * The training is based on deep metric learning. This involves comparing the the embeddings of a face in the stream to the embeddings of all the faces saved during training. The closest estimated face is given as the output. 
