@@ -15,7 +15,6 @@ This project addresses a computer vision problem involving face recognition and 
 * pickle
 * imutils
 * dlib
-* face_recognition
 * time
 * numpy
 * scipy
@@ -25,8 +24,8 @@ This project addresses a computer vision problem involving face recognition and 
 * The training is based on deep metric learning. This involves comparing the the embeddings of a face in the stream to the embeddings of all the faces saved during training. The closest estimated face is given as the output. 
 * The training uses the famous ResNet-34 network from the 'Deep Residual Learning of Image Recognition' paper. Albeit, a pre-trained ResNet network with 29 layers and half the filters as the original one was used in the project.
 * Basically, the pre-trained model is part of the face_recognition module and can be accessed from there. 
-* The face was detected using a CNN that was part of the face_locations function.
-* The labels and the face encodings during training are stored in a pickle object.
+* The face was detected using a CNN that was part
+* The labels and the face encodings during training are stored as a pickle object.
 
 
 ## Method:
@@ -44,13 +43,12 @@ This project addresses a computer vision problem involving face recognition and 
 * If more than 5 blinks are registered, the system goes through. 
 
 ## Conclusion:
-#### The system works with great accuracy and can be used in non-military grade sectors and employment centres in order to login into a system. The result of the system can be found in the output folder under this repo.
+#### The system works with great accuracy and can be used in non-military grade sectors and employment centres in order to login into a system.
 
 
 ## References;
 * http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html
 * https://arxiv.org/abs/1512.03385
-* https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/
 * http://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf
 
 
